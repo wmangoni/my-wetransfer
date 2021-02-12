@@ -1,0 +1,62 @@
+Resumo da reunião com a Certisign:
+ 
+
+Quem gera Token
+-> Administrador de empresa
+
+ 
+Observador
+-> Apenas vê
+
+ 
+
+Aprovador
+-> Se o aprovador não aprovar, reseta para que as assinaturas sejam refeitas
+-> Mais comum no início do contrato
+
+ 
+
+Autorizador
+-> Se o autorizador não autoriza, bloqueia a ordem até uma mudança ser feita
+-> Mais comum no fim do contrato
+
+ 
+
+
+Suporte a SMS
+"cellphone":"numerodecelular"
+"identificationType": {"accessCode": true,"sms": true}
+"accessCode": true
+"AccessCode":"1234"
+"accessCode" =|= "AccessCode"
+
+ 
+
+
+STS
+Travado no próprio Itaú; credenciais não foram dadas
+
+ 
+
+
+Callback de e-mail 
+-> É um serviço apartado
+-> Não teremos acesso
+
+ 
+
+
+Fila de callbacks
+-> Existe em teoria, mas ainda falta confirmação
+
+ 
+
+
+É possível atualizar o PDF de um documento já disponibilizado, e isso desfaz as assinaturas e reviews realizadas, retornando o documento ao estado zero
+Não é possível alterar um sginatário que já assinou, a menos que a etapa acima seja realizada
+
+ 
+
+
+API de status de serviços da Certisign
+--> Só Diogo da Certisign vai saber responder
